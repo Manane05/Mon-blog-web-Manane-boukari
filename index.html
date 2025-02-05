@@ -7,18 +7,28 @@
     <header>
         <div>
             <h1>Mon Blog Web Manane Boukari : les Origines du Web</h1>
-           
             <nav>
-                <ul>
-                    <li><a href="#">Articles</a></li>
-                    <li><a href="#">À propos</a></li>
-                    <li><a href="#">Contact</a></li>
+                <div class="search-container">
+                    <input type="text" id="search-input" placeholder="Rechercher...">
+                    <button onclick="searchFunction()">🔍</button>
+                </div>
+                <a href="#articles" class="Articles">Articles</a>
+                <a href="#about" class="Apropos">À propos</a>
+                <a href="# Me contacter" class="Me Contact">Contact</a>
+            </nav>
+           
+            
+                <section>
                     <p>
                        Bienvenue sur mon site web né d’une passion pour le digital et d’un constat : de nombreux débutants souhaitent apprendre la ""programmation web" mais ne savent pas par où commencer. Ici, je vous propose un voyage à la découverte des "fondements du développement web", en explorant ses origines, ses langages de base et ses principes essentiels. Que vous soyez curieux ou motivé à bâtir vos premiers sites, ce site est conçu pour vous guider pas à pas vers la maîtrise du web.
                       
                     </p>
+                    <div>
                     
-                    <img src="./code.jpg" alt="" srcset="">
+                    <img src="./code.jpg" alt=" ./code.jpg" class="./code.jpg-unique">
+                </div>
+
+                </section>
                     <h2>Aux origines du web : naissance et évolution d’un monde internet</h2>
                     <h3>Les prémices du Web</h3>
                     <p>L’histoire d’Internet remonte aux années 1960, en pleine Guerre froide, lorsque les États-Unis cherchent un moyen de sécuriser leurs communications. C’est ainsi qu’ARPANET, un réseau expérimental développé par l’ARPA (Advanced Research Projects Agency), voit le jour en 1969. Ce réseau permet à plusieurs ordinateurs de communiquer entre eux, marquant ainsi le premier pas vers ce qui deviendra Internet.</p>
@@ -28,51 +38,140 @@
                     <h3>La démocratisation du Web</h3>
                     <p>Dans les années 1990, le Web quitte les laboratoires pour s’ouvrir au grand public. En 1993, le navigateur Mosaic facilite l’accès aux pages web grâce à une interface graphique conviviale. L’apparition des premiers sites, moteurs de recherche et services en ligne marque le début d’une révolution numérique. Des entreprises comme Yahoo! (1994) et Google (1998) émergent, rendant le Web plus accessible et organisé.</p>
                     <h3>L’essor du Web et son impact</h3>
-                </ul><p>Avec l’explosion d’Internet dans les années 2000, le Web devient un outil incontournable dans tous les domaines : communication, commerce, éducation et divertissement. L’arrivée du Web 2.0 favorise l’interactivité avec les réseaux sociaux, les blogs et les plateformes collaboratives. Ce tournant marque le passage d’un Web purement informatif à un espace dynamique et participatif, façonnant le monde numérique que nous connaissons aujourd’hui.</p>
+                <p>Avec l’explosion d’Internet dans les années 2000, le Web devient un outil incontournable dans tous les domaines : communication, commerce, éducation et divertissement. L’arrivée du Web 2.0 favorise l’interactivité avec les réseaux sociaux, les blogs et les plateformes collaboratives. Ce tournant marque le passage d’un Web purement informatif à un espace dynamique et participatif, façonnant le monde numérique que nous connaissons aujourd’hui.</p>
+                <section id="Articles"> 
                 <h2>Nos Articles à Venir</h2>
                 <article>
+                
                     <img src="./fontionnement.jpeg" alt="Illustration article 1">
                     <img src="./fonctionnement internet.png" alt="" srcset="">
                     <h3><a href="#">Comment fonctionne Internet ?</a></h3>
-                    <p>Découvrez comment Comment fonctionne Internet ?.</p>
-                    <a href="#">Lire la suite</a>
+                    <p>Découvrez comment Comment fonctionne Internet ?comprenez le rôle des serveurs, des protocoles et des réseaux qui permettent la communication en ligne..</p>
+                    <a href="#" class="lire-suite">Lire la suite</a>
                 </article>
             
                 <article>
                     <img src="./1er navigateur.jpeg" alt="Illustration article 2">
                     <h3><a href="#">Les premiers navigateurs</a></h3>
-                    <p>Retour sur les premiers logiciels permettant de naviguer sur Internet.</p>
-                    <a href="#">Lire la suite</a>
+                    <p>Retour sur les premiers logiciels permettant de naviguer sur Internet.Explorez l'histoire des premiers navigateurs web, de Mosaic à Netscape, qui ont révolutionné l'accès à Internet</p>
+                    <a href="#" class="lire-suite">Lire la suite</a>
                 </article>
             
                 <article>
                     <img src="./evolution.jpeg" alt="Illustration article 3">
                     <h3><a href="#">L'évolution d'Internet</a></h3>
-                    <p>Comment Internet est-il devenu ce qu'il est aujourd'hui ?</p>
-                    <a href="#">Lire la suite</a>
+                    <p>Comment Internet est-il devenu ce qu'il est aujourd'hui ?Découvrez son évolution, des premières connexions aux technologies modernes qui façonnent le web d’aujourd’hui</p>
+                    <a href="#" class="lire-suite">Lire la suite</a>
                 </article>
                 <article>
                     <img src="./html.png" alt="Illustration article 3">
                     <img src="./code html.jpeg" alt="" srcset="">
                     <h3><a href="#">HTML : les fondations du Web</a></h3>
-                    <p> Découvrez HTML, CSS, : les fondations du Web </p>
-                    <a href="#">Lire la suite</a>
+                  <p> Découvrez HTML, CSS, : Apprenez les bases essentielles du développement web et créez vos premières pages interactives avec HTML et CSS  </p>
+                    <a href="#" class="lire-suite">Lire la suite</a>
                 </article>
+                <section id="about">
+                    <h2>À propos</h2>
+                    <p>Voici les dates importantes des origines du Web :</p>
+                    
+                    <table class="history-table">
+                        <thead>
+                            <tr>
+                                <th>Année</th>
+                                <th>Événement</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1989</td>
+                                <td>Tim Berners-Lee propose le concept du World Wide Web.</td>
+                            </tr>
+                            <tr>
+                                <td>1991</td>
+                                <td>Première page Web mise en ligne.</td>
+                            </tr>
+                            <tr>
+                                <td>1993</td>
+                                <td>Naissance du premier navigateur graphique : Mosaic.</td>
+                            </tr>
+                            <tr>
+                                <td>1994</td>
+                                <td>Création du W3C (World Wide Web Consortium).</td>
+                            </tr>
+                            <tr>
+                                <td>2004</td>
+                                <td>Apparition de Firefox, un concurrent à Internet Explorer.</td>
+                            </tr>
+                            <tr>
+                                <td>2008</td>
+                                <td>Google lance son navigateur Chrome.</td>
+                            </tr>
+                            <tr>
+                                <td>2014</td>
+                                <td>Le HTML5 devient la nouvelle norme officielle du Web.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+                
+               
+
+            </section>
                 <p>Le Web a parcouru un long chemin depuis ses débuts modestes jusqu’à devenir l’élément central de notre ère numérique. À travers ce blog, nous avons exploré son histoire, ses fondements et ses technologies essentielles, ouvrant ainsi la voie à une meilleure compréhension de la programmation web.
 
                     Mais apprendre le développement web ne s’arrête jamais : les langages évoluent, de nouvelles tendances émergent, et les possibilités sont infinies. Ce blog se veut un point de départ pour vous accompagner dans cette aventure, vous fournir les bases solides et vous donner l’envie d’aller plus loin.
                     
                     Que ce soit pour créer votre premier site, approfondir vos compétences ou simplement satisfaire votre curiosité, chaque ligne de code que vous écrirez sera une brique de plus dans votre apprentissage. Le Web est un terrain d’innovation et d’expression sans limites—alors, à vous de jouer !</p>
             </section>
-            </nav>
+            <div>
+                <button class="contact-button" onclick="openContact()">Me Contacter</button>
+
+            </div>
+            <section class="contact-form">
+                <form action="#" method="POST">
+                    <input type="text" name="nom" placeholder="Votre Nom" required>
+                    <input type="email" name="email" placeholder="Votre Email" required>
+                    <input type="text" name="sujet" placeholder="Sujet" required>
+                    <button type="submit">Envoyer</button>
+                </form>
+            </section>
+        
+            
+
+            <section class="about">
+                <h2>À propos de moi</h2>
+                <p>Je suis <strong>Manane BOUKARI</strong>, un passionné de <strong>marketing digital</strong> et de <strong>communication</strong>, avec une expertise en <strong>référencement digital</strong>. Mon objectif est d'accompagner les entreprises et entrepreneurs dans leur transition numérique en mettant en place des stratégies efficaces et adaptées à leurs besoins.</p>
+                
+                <p>Que ce soit pour la création de contenu, le branding ou la mise en place d'une présence en ligne optimisée, je mets mes compétences au service de vos ambitions.</p>
+            
+                <p>📧 <strong>Email :</strong> <a href="mailto:mananibkr@gmail.com">mananibkr@gmail.com</a></p>
+                <p>📞 <strong>Téléphone :</strong> <a href="tel:+22955362665">+229 55 36 26 65</a></p>
+                <p>Retrouve-moi sur :
+                    <a href="https://www.facebook.com/prisca.tamou.5">LinkedIn</a> |
+                    <a href="https://www.facebook.com/prisca.tamou.5">Facebook</a>
+                </p>
+        
+            </section>
+            
+            
         </div>
     </header>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
-    <footer class="bg-dark text-white text-center py-3 mt-5">
-        <p>&copy; 2025 Mon unique Blog Web. Tous droits réservés par Manane BOUKARI Référente digital à l'Ecole de Métiers du Numérique.</p>
-    </footer>
+   
+    <footer class="footer">
+        
+        <ul>
+            <li><a href="#">Accueil</a></li>
+            <li><a href="#">Articles</a></li>
+            <li><a href="#">À propos</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Mentions légales</a></li>
+        </ul>
+        <p>&copy; 2024 Manane BOUKARI. Tous droits réservés.</p>
+    </footer>
     
 </body>
 </html>
